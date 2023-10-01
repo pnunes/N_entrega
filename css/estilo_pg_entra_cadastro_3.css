@@ -1,0 +1,184 @@
+       
+/*limpa geral*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*DEFINIÇÕES DE ESTILO PARA A PAGINA DE ENTRADA */
+
+/*Cabecalho principal da pagina*/
+#cabeca {
+	width:100%;
+	height: 80px;
+	position: relative;
+	margin-left:0px;
+	margin-top:0px;
+	background-color: #191970;	
+}
+
+/*onde vai o nome do modulo do sistema*/
+#nome_sistema {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding:7px;
+	text-align:center;
+	font-size:28px;
+	font-weight: 900;
+	color:#ffffff;
+	line-height:40px;
+	font-family: Arial, Tahoma, sans-serif;	
+}
+/*cabeçalho com o nome do formulario*/
+#cabecalho {
+	width:1050px;
+	height:40px;
+	position:relative;
+	margin-left: 150px;
+	margin-top:60px;
+	background-color:#000000;
+	text-align:center;
+	font-size:18px;
+	font-weight: 600;
+	color:#fff;
+	line-height:40px;
+	font-family: Arial, Tahoma, sans-serif;	
+}
+
+/*div com o nome do usuario*/
+#nome_usu {
+    width:400px;
+	height: 25px;
+	position: relative;
+	float: right;
+    margin-left:500px;
+	margin-top:5px;
+	background: #A9A9A9;
+	font-family:"Times New Roman", Times, serif;
+	font-style:italic;
+	font-size:24px;
+}
+
+.navbar {
+	width:100%;
+	height: 5px;
+	position: fixed;
+	float: left;
+	margin-top:-25px;
+	background: #A9A9A9;
+	z-index: 1;
+}
+
+.navbar-nav > li >a{ 
+  font-size:18px;
+  font-weight: bold;
+  color: #ffffff;
+  margin-top:-58px;
+  line-height: 50px;
+}
+
+a:link { 
+ text-decoration:none; 
+} 
+
+.cell1 {
+    width: 90px;
+	height: 20px;
+	position: relative;
+    margin-left: 0px;
+    text-align: center;
+    margin-top: 9px;
+}
+
+.cell2 {
+    width: 350px;
+    height: 20px;
+	position: relative;
+    margin-left: 0px;
+    text-align: center;
+    margin-top: 9px;
+}
+
+.cell3 {
+    width: 180px;
+    height: 20px;
+	position: relative;
+    margin-left: 0px;
+    margin-top: 9px;
+	text-align: center;
+}
+.cell4 {
+    width: 90px;
+    height: 30px;
+	position: relative;
+    margin-left: 0px;
+    text-align: center;
+    margin-top: 9px;
+}
+
+.cell1, .cell2, .cell3, .cell4 {
+    box-sizing: border-box;
+    min-height: 20px;
+    padding-left: 4px;
+    box-sizing: border-box;
+    float: left;
+    position: relative;
+	font-size:12px;
+}
+
+#txt_consulta {
+    width: 965px;
+}
+
+table tbody,
+table thead {
+  display: block;
+}
+
+table tbody {
+    overflow: auto;
+    height: 250px;
+}
+
+#tab_entra {
+    width: 1050px;
+	margin-left: 150px;
+    margin-top: 80px;
+    border: 1px solid #000000;
+    background-color: #fff;
+}
+
+#cabe_tab {
+    width: 1050px;
+    border: 1px solid #191970;
+    background-color: #191970;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 16px;
+    display: table;
+	position: sticky;
+    position: -webkit-sticky;
+}
+#impressora {
+	width:35px;
+	height:32px;
+	background-color:#fff;
+	float: right;
+	margin-right:5px;
+	border-radius: 4px;
+}
+#impre {
+	margin-top: 7px;
+}
+#div_busca {
+	background-color:#fff;
+	height: 25px;
+}
+.cabe_td {
+	height: 25px;
+	margin-top: -5px;
+	
+}

@@ -1,0 +1,394 @@
+       
+/*DEFINIÇÕES DE ESTILO PARA A PAGINA DE ENTRADA */
+
+#cabeca {
+	width:100%;
+	height: 80px;
+	position: relative;
+	margin-left:0px;
+	margin-top:0px;
+	background-color: #191970;	
+}
+
+#cabecalho {
+	width:1290px;
+	height:40px;
+	position:relative;
+	margin-left: 30px;
+	margin-top:50px;
+	background-color:#000000;
+	text-align:center;
+	font-size:18px;
+	font-weight: 200;
+	color:#ffffff;
+	line-height:40px;
+	font-family: Arial, Tahoma, sans-serif;	
+}
+
+#cabecalho_1 {
+	width:552px;
+	height:40px;
+	position:relative;
+	margin-left: 400px;
+	margin-top:80px;
+	/*background-color:#4682B4;*/
+	background-color:#000000;
+	text-align:center;
+	font-size:18px;
+	font-weight: 200;
+	color:#ffffff;
+	line-height:40px;
+	font-family: Arial, Tahoma, sans-serif;
+}
+#cabecalho_2 {
+	width:1000px;
+	height:40px;
+	position:relative;
+	margin-left: 0px;
+	margin-top:60px;
+	background-color:#000000;
+	text-align:center;
+	font-size:18px;
+	font-weight: 200;
+	color:#ffffff;
+	line-height:40px;
+	font-family: Arial, Tahoma, sans-serif;	
+}
+#logo_d_pequeno {
+	width:150px;
+	height: 100px;
+	background-image: url(../img/logo_direito_pequeno.png);
+	background-repeat: no-repeat;
+	position: relative;
+	float: left;
+	margin-left:30px;
+	padding:5px;
+}
+
+#nome_usu {
+    width:400px;
+	height: 25px;
+	position: relative;
+	float: left;
+    margin-left:500px;
+	margin-top:5px;
+	background: #A9A9A9;
+	font-family:"Times New Roman", Times, serif;
+	font-style:italic;
+	font-size:24px;
+}
+
+#nome_sistema {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align:center;
+	font-size:28px;
+	font-weight: 900;
+	color:#ffffff;
+	line-height:50px;
+	font-family: Arial, Tahoma, sans-serif;	
+}
+
+.navbar {
+	width:100%;
+	height: 5px;
+	position: relative;
+	float: left;
+	margin-top:-25px;
+	background: #A9A9A9;
+	z-index: 1;
+}
+
+.navbar-nav > li >a{ 
+  font-size:18px;
+  font-weight: bold;
+  color: #ffffff;
+  margin-top:-58px;
+  line-height: 50px;
+}
+
+.navbar-nav > li:hover >a,
+.navbar-nav > li.active >a
+{
+  color: blueviolet;
+}
+li {
+  list-style: none;
+}
+a:link { 
+ text-decoration:none; 
+} 
+#mensagem {
+	width: 610px;
+	height:42px;
+	background-color:#1b5896;
+	padding:0px;
+	margin-top: -3px;
+	margin-left:15px;
+	margin-bottom:2px;
+	text-align: center;
+	font-size:16px;
+	font-weight: 600;
+	color:#FFFF00;
+	font-family: Arial, Tahoma, sans-serif;
+	/*border: 1px solid #000;*/
+}
+.msg_conteudo {
+	width: 610px;
+	height:47px;
+	padding:10px;
+}
+#principal {
+    width: 650px;
+	height: 450px;
+    position: relative;
+    float: left;
+    margin-left: 350px;
+    border:1px solid #1b5896;
+	background-color:#1b5896;
+}
+#t_form {
+    width: 650px;
+    height: 50px;
+    position: relative;
+    float: left;
+    margin-left: 350px;
+    margin-top: 10px;
+    background-color:#1b5896;
+	text-align:center;
+	font-size:20px;
+	font-weight: 600;
+	color:#ffffff;
+	line-height:50px;
+	font-family: Arial, Tahoma, sans-serif;	
+}
+#dados_hawb {
+	width:630px;
+	height:175px;
+	position:realtive;
+	float:left;
+	margin-left:9px;
+	background-color:#ffffff;
+}
+
+/* define estilo dos campos do formulario*/
+
+#n_hawb {
+    width: 200px;
+    position: relative;
+    float: left;
+    margin-left: 15px;
+	margin-top: 15px;
+}
+#b_pequisa_c_hawb {
+    width: 100px;
+    position: relative;
+    float: left;
+    margin-left: 200px;
+    margin-top: -35px;
+}
+#c_escritorio_titu {
+    width: 80px;
+	height: 33px;
+    position: relative;
+    float: left;
+    margin-left: 120px;
+	margin-top: 15px;
+	font-weight: 600;
+	color:#000000;
+	font-family: Arial, Tahoma, sans-serif;	
+	/*border: 1px solid #000;*/
+	line-height:28px;
+}
+#c_escritorio_dado {
+    width: 200px;
+	height: 33px;
+    position: relative;
+    float: left;
+    margin-left: 200px;
+	margin-top: -33px;
+	color:#000000;
+	font-family: Arial, Tahoma, sans-serif;
+	font-size: 14px;
+	/*border: 1px solid #000;*/
+	line-height:28px;
+	background-color:#DCDCDC;
+}
+#c_cliente_titu {
+    width: 70px;
+	height: 33px;
+    position: relative;
+    float: left;
+    margin-left: -200px;
+	margin-top: 5px;
+	font-weight: 600;
+	color:#000000;
+	font-family: Arial, Tahoma, sans-serif;	
+	/*border: 1px solid #000;*/
+	line-height:28px;
+}
+#c_cliente_dado {
+    width: 225px;
+	height: 33px;
+    position: relative;
+    float: left;
+    margin-left: -140px;
+	margin-top: 5px;
+	color:#000000;
+	font-family: Arial, Tahoma, sans-serif;
+	/*border: 1px solid #000;*/
+	line-height:28px;
+	background-color:#DCDCDC;
+	font-size: 10px;
+}
+#nome_desti_titu {
+    width: 70px;
+	height: 33px;
+    position: relative;
+    float: left;
+    margin-left: 10px;
+	margin-top: 5px;
+	font-weight: 600;
+	color:#000000;
+	font-family: Arial, Tahoma, sans-serif;	
+	/*border: 1px solid #000;*/
+	line-height:28px;
+}
+#nome_desti_dado {
+    width: 243px;
+	height: 33px;
+    position: relative;
+    float: left;
+    margin-left: -8px;
+	margin-top: 5px;
+	color:#000000;
+	font-family: Arial, Tahoma, sans-serif;
+	/*border: 1px solid #000;*/
+	line-height:28px;
+	background-color:#DCDCDC;
+	font-size: 10px;
+}
+#no_rece_titu {
+	width: 90px;
+	height: 33px;
+    position: relative;
+    float: left;
+    margin-left: 15px;
+	margin-top: 5px;
+	font-weight: 600;
+	color:#000000;
+	font-family: Arial, Tahoma, sans-serif;	
+	/*border: 1px solid #000;*/
+	line-height:28px;
+}
+#no_rece_dado {
+	width: 230px;
+	height: 33px;
+    position: relative;
+    float: left;
+    margin-left: 5px;
+	margin-top: 5px;
+	color:#000000;
+	font-family: Arial, Tahoma, sans-serif;
+	/*border: 1px solid #000;*/
+	line-height:28px;
+	background-color:#DCDCDC;
+	font-size: 11px;
+}
+#dc_recebe_titu {
+	width: 90px;
+	height: 33px;
+    position: relative;
+    float: left;
+    margin-left: 15px;
+	margin-top: 5px;
+	font-weight: 600;
+	color:#000000;
+	font-family: Arial, Tahoma, sans-serif;	
+	/*border: 1px solid #000;*/
+	line-height:28px;
+}
+#dc_recebe_dado {
+	width: 165px;
+	height: 33px;
+    position: relative;
+    float: left;
+    margin-left: 5px;
+	margin-top: 5px;
+	color:#000000;
+	font-family: Arial, Tahoma, sans-serif;
+	/*border: 1px solid #000;*/
+	line-height:28px;
+	background-color:#DCDCDC;
+	font-size: 11px;
+}
+#c_entregador_titu {
+	width: 90px;
+	height: 33px;
+    position: relative;
+    float: left;
+    margin-left: 15px;
+	margin-top: 5px;
+	font-weight: 600;
+	color:#000000;
+	font-family: Arial, Tahoma, sans-serif;	
+	/*border: 1px solid #000;*/
+	line-height:28px;
+}
+#c_entregador_dado {
+	width: 505px;
+	height: 33px;
+    position: relative;
+    float: left;
+    margin-left: 5px;
+	margin-top: 5px;
+	color:#000000;
+	font-family: Arial, Tahoma, sans-serif;
+	/*border: 1px solid #000;*/
+	line-height:28px;
+	background-color:#DCDCDC;
+	font-size: 13px;
+}
+#tab_historico {
+    width: 630px;
+	height: 180px;
+	position: relative;
+    float: left;
+	margin-left: 10px;
+	margin-top: 10px;
+	font-size:12px;
+	color:#000000;
+	font-family: Arial, Tahoma, sans-serif;	
+}
+tbody{
+	background-color: #ffffff;
+}
+
+#botoes {
+	width: 100%;
+	height: 40px;
+    position: relative;
+    float: left;
+    margin-left: 0px;
+    margin-top: -10px;
+    background-color:#1b5896;
+	
+}
+#voltar {
+	width: 100px;
+	height: 35;
+    position: relative;
+    float: left;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+
+
+
+
+
+
+
+
