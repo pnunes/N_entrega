@@ -1,0 +1,587 @@
+       
+/*DEFINIÇÕES DE ESTILO PARA A PAGINA DE ENTRADA */
+
+#cabeca {
+	width:100%;
+	height: 80px;
+	position: relative;
+	margin-left:0px;
+	margin-top:0px;
+	background-color: #191970;	
+}
+
+#cabecalho {
+	width:1290px;
+	height:40px;
+	position:relative;
+	margin-left: 30px;
+	margin-top:50px;
+	background-color:#000000;
+	text-align:center;
+	font-size:18px;
+	font-weight: 200;
+	color:#ffffff;
+	line-height:40px;
+	font-family: Arial, Tahoma, sans-serif;	
+}
+
+#cabecalho_1 {
+	width:552px;
+	height:40px;
+	position:relative;
+	margin-left: 400px;
+	margin-top:80px;
+	/*background-color:#4682B4;*/
+	background-color:#000000;
+	text-align:center;
+	font-size:18px;
+	font-weight: 200;
+	color:#ffffff;
+	line-height:40px;
+	font-family: Arial, Tahoma, sans-serif;
+}
+#cabecalho_2 {
+	width:1000px;
+	height:40px;
+	position:relative;
+	margin-left: 0px;
+	margin-top:60px;
+	background-color:#000000;
+	text-align:center;
+	font-size:18px;
+	font-weight: 200;
+	color:#ffffff;
+	line-height:40px;
+	font-family: Arial, Tahoma, sans-serif;	
+}
+#logo_d_pequeno {
+	width:150px;
+	height: 100px;
+	background-image: url(../img/logo_direito_pequeno.png);
+	background-repeat: no-repeat;
+	position: relative;
+	float: left;
+	margin-left:30px;
+	padding:5px;
+}
+
+#nome_usu {
+    width:400px;
+	height: 25px;
+	position: relative;
+	float: left;
+    margin-left:500px;
+	margin-top:5px;
+	background: #A9A9A9;
+	font-family:"Times New Roman", Times, serif;
+	font-style:italic;
+	font-size:24px;
+}
+
+#nome_sistema {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align:center;
+	font-size:28px;
+	font-weight: 900;
+	color:#ffffff;
+	line-height:50px;
+	font-family: Arial, Tahoma, sans-serif;	
+}
+
+.navbar {
+	width:100%;
+	height: 5px;
+	position: relative;
+	float: left;
+	margin-top:-25px;
+	background: #A9A9A9;
+	z-index: 1;
+}
+
+.navbar-nav > li >a{ 
+  font-size:18px;
+  font-weight: bold;
+  color: #ffffff;
+  margin-top:-58px;
+  line-height: 50px;
+}
+
+.navbar-nav > li:hover >a,
+.navbar-nav > li.active >a
+{
+  color: blueviolet;
+}
+li {
+  list-style: none;
+}
+a:link { 
+ text-decoration:none; 
+} 
+.msg_conteudo {
+	width: 1000px;
+	height:47px;
+	padding:10px;
+}
+#mensagem {
+	width: 1000px;
+	height:42px;
+	background-color:#FFFFFF;
+	padding:0px;
+	margin-top: 0px;
+	margin-left:0px;
+	margin-bottom:2px;
+	text-align: center;
+	font-size:16px;
+	font-weight: 600;
+	color:#FFFF00;
+	font-family: Arial, Tahoma, sans-serif;
+	/*border: 1px solid #000;*/
+}
+
+/* Estilo especifico para pagina inclisao_hawb*/
+#principal {
+    width: 650px;
+	height: 1550px;
+    position: relative;
+    float: left;
+    margin-left: 350px;
+    border:1px solid #1b5896;
+	background-color:#1b5896;
+}
+#t_form {
+    width: 650px;
+    height: 50px;
+    position: relative;
+    float: left;
+    margin-left: 350px;
+    margin-top: 20px;
+    background-color:#1b5896;
+	text-align:center;
+	font-size:20px;
+	font-weight: 600;
+	color:#ffffff;
+	line-height:50px;
+	font-family: Arial, Tahoma, sans-serif;	
+}
+
+/* define o estilo dos campos relativos aos dados da HAWB */
+
+#c_data {
+    width: 620px;
+    position: relative;
+    float: left;
+    margin-left: 25px;
+	margin-top: 15px;
+}
+#c_cliente {
+    width: 590px;
+    position: relative;
+    float: left;
+    margin-left: 38px;
+	margin-top: 15px;
+}
+
+#c_servico {
+    width: 590px;
+    position: relative;
+    float: left;
+    margin-left: 40px;
+	margin-top: 15px;
+}
+#c_escritorio {
+    width: 590px;
+    position: relative;
+    float: left;
+    margin-left: 40px;
+	margin-top: 15px;
+}
+#fixa_cabe {
+    width: 400px;
+    position: relative;
+    float: left;
+    margin-left: 120px;
+    margin-top: -5px; 
+    font-family: Arial, Tahoma, sans-serif;
+	font-size:16px;
+    text-align: center;
+	color:#ffffff;
+	font-weight: 700;  
+}
+#dados_hawb {
+	background-color:#6959CD;
+	text-align:center;
+	font-size:16px;
+	font-weight: 600;
+	color:#ffffff;
+	line-height:50px;
+	font-family: Arial, Tahoma, sans-serif;	
+}
+#cod_barras {
+    width: 590px;
+    position: relative;
+    float: left;
+    margin-left: 25px;
+	margin-top: 5px;
+}
+#n_hawb {
+    width: 510px;
+    position: relative;
+    float: left;
+    margin-left: 25px;
+	margin-top: 15px;
+}
+
+#qtdade_ser {
+    width: 210px;
+    position: relative;
+    float: left;
+    margin-left: 25px;
+	margin-top: 15px;
+}
+#valor_ser {
+    width: 200px;
+    position: relative;
+    float: left;
+    margin-left: 0px;
+	margin-top: 15px;
+}
+#status_hawb {
+	width: 210px;
+    position: relative;
+    float: left;
+    margin-left: 435px;
+	margin-top: -35px;
+}
+
+/* define o estilo dos campos relativos ao destinatario do serviço */
+
+#nome_desti {
+    width: 590px;
+    position: relative;
+    float: left;
+	margin-left: 25px;
+    margin-top: 15px;
+	border: 1px solid #000;
+}
+#dados_destino {
+	width: 600px;
+	background-color:#483D8B;
+	text-align:center;
+	font-size:16px;
+	font-weight: 600;
+	color:#ffffff;
+	line-height:50px;
+	font-family: Arial, Tahoma, sans-serif;	
+	/*border: 2px solid #fff;*/
+}
+#cod_desti {
+    width: 480px;
+    position: relative;
+    float: left;
+    margin-left: 40px;
+	margin-top: 15px;
+	/*border: 1px solid #000;*/
+}
+#b_pequisa_c_desti {
+    width: 100px;
+    position: relative;
+    float: left;
+    margin-left: 485px;
+    margin-top: -43px;
+}
+#cnpj_desti {
+    width: 588px;
+    position: relative;
+    float: left;
+    margin-left: 40px;
+	margin-top: 15px;
+	/*border: 1px solid #000;*/
+}
+#n_cep {
+    width: 180px;
+    position: relative;
+    float: left;
+    margin-left: 40px;
+	margin-top: 15px;
+   /* border: 1px solid #000;*/	
+}
+#b_pesquisa_cep {
+    width: 100px;
+    position: relative;
+    float: left;
+    margin-left: 195px;
+    margin-top: -33px;
+}
+#classe_cep {
+	width: 290px;
+	height: 20px;
+	position: relative;
+    float: left;
+    margin-left: 240px;
+    margin-top: -35px;
+	border: 1px solid #000;
+}
+#cl_cep {
+    width: 298px;
+    position: relative;
+    float: left;
+    margin-left: -10px;
+	/*border: 1px solid #000;*/
+}
+#rua_desti {
+    width: 450px;
+    position: relative;
+    float: left;
+    margin-left: 40px;
+	margin-top: 15px;
+   /* border: 1px solid #000;*/	
+}
+#nume_desti {
+    width: 120px;
+    position: relative;
+    float: left;
+    margin-left: 510px;
+	margin-top: -35px;
+	/*border: 1px solid #000;*/
+}
+#comple_desti {
+    width: 590px;
+    position: relative;
+    float: left;
+    margin-left: 40px;
+	margin-top: 15px;
+	/*border: 1px solid #000;*/
+}
+#bair_desti {
+    width: 590px;
+    position: relative;
+    float: left;
+    margin-left: 40px;
+    margin-top: 15px;
+   /* border: 1px solid #000;*/	
+}
+#cida_desti {
+    width: 450px;
+    position: relative;
+    float: left;
+    margin-left: 40px;
+	margin-top: 15px;
+	/*border: 1px solid #000;*/
+}
+#esta_desti {
+    width: 125px;
+    position: relative;
+    float: left;
+    margin-left: 505px; 
+	margin-top: -35px;
+	border: 1px solid #000;
+}
+
+/* define o estilo dos campos relativos a entrega da HAWB */
+
+#dados_entrega {
+	width: 600px;
+	text-align:center;
+	font-size:16px;
+	font-weight: 600;
+	color:#ffffff;
+	line-height:50px;
+	font-family: Arial, Tahoma, sans-serif;	
+	/*border: 2px solid #fff;*/
+}
+#n_lista {
+	width: 220px;
+    position: relative;
+    float: left;
+    margin-left: 40px; 
+	margin-top: 15px;
+	/*border: 1px solid #000;*/
+}
+#dt_lista {
+	width: 350px;
+    position: relative;
+    float: left;
+    margin-left: 280px;
+	margin-top: -35px;
+	border: 1px solid #000;
+}
+#dt_entrega {
+	width: 410px;
+    position: relative;
+    float: left;
+    margin-left: 40px;
+	margin-top: 15px;
+}
+#hr_entrega {
+	width: 160px;
+    position: relative;
+    float: left;
+    margin-left: 470px; 
+	margin-top: -35px;
+}
+#no_rece {
+	width: 590px;
+    position: relative;
+    float: left;
+    margin-left: 40px; 
+	margin-top: 15px;
+}
+#dc_recebe {
+	width: 270px;
+    position: relative;
+    float: left;
+    margin-left: 40px; 
+	margin-top: 15px;
+}
+#c_entregador {
+	width: 295px;
+	height: 20px;
+	position: relative;
+    float: left;
+    margin-left: 335px;
+    margin-top: -35px;
+}
+#c_ocorrencia {
+	width: 590px;
+	height: 20px;
+	position: relative;
+    float: left;
+    margin-left: 40px;
+    margin-top: 15px;
+}
+#t_entrega {
+	width: 280px;
+    position: relative;
+    float: left;
+    margin-left: 40px; 
+	margin-top: 15px
+}
+#v_lista {
+	width: 280px;
+    position: relative;
+    float: left;
+    margin-left: 350px; 
+	margin-top: -35px;
+}
+
+/* define o estilo dos campos relativos a baixa da HAWB e devolução a origem*/
+
+#dados_baixa {
+	width: 648px;
+	background-color:#4F4F4F;
+	text-align:center;
+	font-size:16px;
+	font-weight: 600;
+	color:#ffffff;
+	line-height:50px;
+	font-family: Arial, Tahoma, sans-serif;	
+	/*border: 2px solid #fff;*/
+}
+#dt_baixa {
+	width: 590px;
+    position: relative;
+    float: left;
+    margin-left: 40px;
+	margin-top: 15px;
+}
+#n_lista_devo {
+	width: 250px;
+    position: relative;
+    float: left;
+    margin-left: 40px; 
+	margin-top: 15px;
+	/*border: 1px solid #000;*/
+}
+#dt_lista_devo {
+	width: 320px;
+    position: relative;
+    float: left;
+    margin-left: 310px;
+	margin-top: -35px;
+	/*border: 1px solid #000;*/
+}
+#dt_devo_origem {
+	width: 280px;
+    position: relative;
+    float: left;
+    margin-left: 40px;
+	margin-top: 15px;
+	/*border: 1px solid #000;*/
+}
+#hr_dev_orige {
+	width: 160px;
+    position: relative;
+    float: left;
+    margin-left: 340px; 
+	margin-top: -35px;
+}
+#img_expo {
+	width: 100px;
+    position: relative;
+    float: left;
+    margin-left: 520px; 
+	margin-top: -35px;
+}
+#observa {
+	width: 590px;
+    position: relative;
+    float: left;
+    margin-left: 40px; 
+	margin-top: 15px;
+}
+/* define o estilo dos botões da pagina*/
+#botoes {
+	width: 650px;
+	height: 80px;
+	margin-left:0px;
+	margin-top:5px;
+	/*border: 1px solid #000;
+	background-color:#ffffff;*/
+}
+#voltar {
+	width: 80px;
+	height: 35px;
+    position: relative;
+    float: left;
+    margin-left: 0px;
+    margin-top: 15px;	
+}
+#mensagem {
+	width: 638px;
+	height:50px;
+	padding:0px;
+	margin-top: -10px;
+	margin-left:5px;
+	margin-bottom:5px;
+	text-align: center;
+	font-size:16px;
+	font-weight: 600;
+	color:#FFFF00;
+	font-family: Arial, Tahoma, sans-serif;
+}
+.msg_conteudo {
+	width: 638px;
+	height:50px;
+	padding:15px;
+}
+#alterar {
+	width: 80px;
+	height: 35px;
+    position: relative;
+    float: right;
+    margin-right: -180px;
+	margin-top: 15px;
+}
+#excluir {
+	width: 80px;
+	height: 35px;
+    position: relative;
+    float: right;
+    margin-right: 105px;
+	margin-top: 15px;
+}
+
+
+

@@ -1,0 +1,314 @@
+/*
+ * style.css
+ */
+ 
+ /* reset de margens */
+* {
+    margin: 0;
+    padding:0;
+}
+/* para garantir que estes elementos ocupar�o toda a tela */
+body, html {
+    width: 100%;
+    height: 100%;
+    font-family: Arial, Tahoma, sans-serif;
+}
+/*input,textarea, button {
+    margin: 10px 0 0px 0;
+}*/
+.container-fluid {
+   width: 100%;
+   height: 100%;
+   z-index:0;
+}
+.row {
+   margin-bottom: 20px;
+}
+/*#principal {
+   background-image: linear-gradient( 115deg, #001669, #007296 1%, #007296 11%, #015673 15%,
+    #000 23.57%, transparent 23.57%, transparent 100% ),
+
+    linear-gradient( 109deg, transparent, #2d8427 23.57%, #205a06 41%, #000 45%,
+	transparent 45%, transparent 100% ),
+
+    linear-gradient( 109deg, transparent, #e79a07 45%, #e79a07 50%, #e79a07 52%,
+    #444 55%, transparent 45%, transparent 100% ),
+
+    linear-gradient( 109deg, transparent, #288ab1 55%, #288ab1 68%,  #000 73%,
+    transparent 73%, transparent 100% ),
+
+    linear-gradient( 109deg, transparent, #de491e 73%, #de491e 100% );
+    /*opacity: 0.70;
+
+    position: absolute;  
+    z-index:0;
+}*/
+#menu_horizontal {
+   width: 100%;
+   height: 70px;
+   position: fixed;
+   margin-top: 0px;
+   opacity: 0.60;
+   z-index:1;
+}
+#principal {
+    width: 100%;
+    height:100%;
+    /*border: 2px solid #000000;*/
+    background-image: url("img/caminhao_logo_branco_01.jpg");
+    background-repeat: no-repeat;
+    position: relative; 
+    /*float:left;*/
+    margin-top: 55px;
+    margin-left:0px;
+    /*z-index:2;*/
+}
+/*#logofj {
+    width: 400px;
+    height:150px;
+    position: relative; 
+    background-image: url("img/logofj_pronto_02.png");
+    background-repeat: no-repeat;
+    float:left;
+    margin-top: -820px;
+    margin-left:320px;
+}*/
+#c_barra {
+    width: 250px;
+    height:180px;
+    padding:10px;
+    position: relative; 
+    background-color: #ffffff;
+    opacity: 0.60;
+    /*border: 2px solid #ffffff;*/ 
+    background-image: url("img/codigo_barra_pronto.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    float:left;
+    margin-top: 50px;
+    margin-left: 1050px;
+    z-index:4;
+}
+/*#img_c_barra {
+    width: 245px;
+    height:175px;
+    position: relative; 
+    background-image: url("img/codigo_barra_pronto.png");
+    background-repeat: no-repeat;
+    float:left;
+    margin-top: -900px;
+    margin-left: 1050px;
+    z-index:6;
+}*/
+#quem_somos {
+   width: 100%;
+   height: 565px;
+   position: relative;
+   float: left;
+   margin-top: 35px;
+  /* background-color: #FFDAB9;*/
+   /*margin-top: 10px;*/
+   /*opacity: 0.80;*/
+   z-index:3;
+}
+#titulo_quem_somos {
+    width: 230px;
+    height: 45px;
+    position: relative;
+    margin-top:30px; 
+   /* border: 2px solid #000000;*/
+    padding: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #191970;
+}
+#detalhe_quem_somos {
+    width: 850px;
+    height: 420px;
+    position: relative;
+    /*border: 2px solid #000000;*/ 
+    padding: 30px;
+    font-size: 15px;
+    text-align: justify;
+}
+#entrega_porta {
+    width: 450px;
+    height: 250px;
+    background-image: url("img/entrega_porta.png");
+    background-repeat: no-repeat;
+    position: relative;
+   /* border: 2px solid #000000;*/
+    margin-top:-330px;
+    float: right;
+    margin-right:50px;
+    opacity: 1.0;
+}
+#topo_quem {
+    width: 50px;
+    height: 50px;
+    background-image: url("img/topo.png");
+    position: relative;
+   /* border: 2px solid #000000; */
+    float: right;
+    margin-right: 50px;
+    margin-top:-25px;
+}
+#servicos {
+   width: 100%;
+   height: 565px;
+   position: relative;
+   background-color: #00008B;
+   margin-top: 90px;
+   /*opacity: 0.80; */
+}
+#titulo_servicos {
+    width: 330px;
+    height: 45px;
+    position: relative;
+    /*border: 2px solid #000000; */
+    padding: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+}
+#detalhe_servicos {
+    width: 1000px;
+    height: 480px;
+    position: relative;
+    /*border: 2px solid #000000;*/
+    padding: 30px;
+    font-size: 13px;
+    color: #ffffff;
+    text-align: justify;
+}
+#entrega_lambreta {
+    width: 237px;
+    height: 195px;
+    background-image: url("img/lambreta_copia.png");
+    background-repeat: no-repeat center;
+    position: relative;
+    /*border: 2px solid #000000;*/
+    margin-top:-320px;
+    float: right;
+    margin-right:400px;
+    opacity: 1.0;
+}
+#topo_servico {
+    width: 50px;
+    height: 50px;
+    background-image: url("img/topo.png");
+    position: relative;
+    /*border: 2px solid #000000; */
+    float: right;
+    margin-right: 50px;
+    margin-top:-65px;
+}
+#local {
+   width: 100%;
+   height: 565px;
+   position: relative;
+   background-color: #FF8C00;
+   margin-top: 35px;
+   /*opacity: 0.80; */
+}
+#titulo_local {
+    width: 330px;
+    height: 45px;
+    position: relative;
+    /*border: 2px solid #000000; */
+    padding: 30px;
+    font-size: 21px;
+    font-weight: bold;
+    color: #000000;
+}
+#detalhe_local {
+    width: 400px;
+    height: 200px;
+    position: relative;
+    /*border: 2px solid #000000;*/
+    padding: 30px;
+   /* font-size: 13px;
+    color: #ffffff;
+    text-align: justify;*/
+}
+#mapa_local {
+    width: 600px;
+    height: 350px;
+   /* background-image: url("img/entrega_porta.png");
+    background-repeat: no-repeat center;*/
+    position: relative;
+    /*border: 2px solid #000000;*/
+    margin-top:-150px;
+    float: right;
+    margin-right:250px;
+}
+#topo_local {
+    width: 50px;
+    height: 50px;
+    background-image: url("img/topo.png");
+    position: relative;
+    /*border: 2px solid #000000; */
+    float: right;
+    margin-right: -750px;
+    margin-top:220px;
+}
+#contato {
+    width: 100%;
+    height: 565px;
+    position: relative;
+    background-color: #ffffff;
+    /*margin-top: 35px;*/
+    /*opacity: 0.80; */
+    border: 2px solid #000000; 
+ }
+ #titulo_contato {
+     width: 330px;
+     height: 45px;
+     position: relative;
+     margin-top: 10px;
+     border: 2px solid #000000; *
+     padding: 30px;
+     font-size: 21px;
+     font-weight: bold;
+     color: #000000;
+ }
+ #detalhe_contato {
+     width: 400px;
+     height: 200px;
+     position: relative;
+     border: 2px solid #000000;
+     padding: 30px;
+    /* font-size: 13px;
+     color: #ffffff;
+     text-align: justify;*/
+ }
+ #formu_contato {
+    width: 600px;
+    height: 350px;
+    position: relative;
+    border: 2px solid #000000;
+    margin-top:-200px;
+    float: leftt;
+    margin-left:450px;
+}
+ /*#mapa_contato {
+     width: 600px;
+     height: 250px;
+     position: relative;
+     /*border: 2px solid #000000;*/
+     /*margin-top:-90px;
+     float: left;
+     margin-left: 100px;
+ }*/
+ #topo_contato {
+     width: 50px;
+     height: 50px;
+     background-image: url("img/topo.png");
+     position: relative;
+     /*border: 2px solid #000000; */
+     float: left;
+     margin-left: 550px;
+     margin-top:100px;
+ }
+ 
+

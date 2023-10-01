@@ -1,0 +1,100 @@
+/******************************************/
+/* estilo cadastro de pessoas */
+/****************************************/
+/*.header {
+    width: 800px;
+    height: 40px;
+    float: left;
+    border: 1px solid #4682B4;
+    position: relative;
+    margin-left: 300px;
+    margin-top: 50px;
+    background-color: #4682B4;
+}*/
+
+.d0 {
+    width: 902px;
+    height: 40px;
+    border: 1px solid #4682B4;
+    float: left;
+    position: relative;
+    margin-left: 220px;
+    margin-top: 50px;
+    background-color: #4682B4;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 14px;
+    display: table;
+    z-index: 0;
+}
+
+.d0scoll {
+    border
+}
+
+.d1 {
+    width: 900px;
+    float: left;
+    position: relative;
+    margin-left: 220px;
+    margin-top: 0px;
+    background-color: #fff;
+    border: 2px solid #4682B4;
+    height: 350px;
+    overflow-y: scroll;
+}
+
+.d2 {
+    width: 900px;
+    display: inline;
+    background-color: #fff;
+    border-width: thin;
+    border-style: solid;
+    border-color: #ccc;
+    min-height: 30px;
+    top: 0px;
+    left: 0px;
+    box-sizing: border-box;
+    display: table;
+}
+
+    .d2:nth-child(odd) {
+        background: #F8F8FF;
+    }
+
+.cell1 {
+    width: 120px;
+    height: 30px;
+    text-align: left;
+    margin-top: 15px;
+}
+
+.cell2 {
+    width: 400px;
+    height: 30px;
+    text-align: left;
+    margin-top: 15px;
+}
+
+.cell3 {
+    width: 200px;
+    height: 30px;
+    text-align: left;
+    margin-top: 15px;
+}
+.cell4 {
+    width: 60px;
+    height: 30px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.cell1, .cell2, .cell3, .cell4 {
+    box-sizing: border-box;
+    min-height: 30px;
+    padding-left: 6px;
+    box-sizing: border-box;
+    float: left;
+    position: relative;
+}

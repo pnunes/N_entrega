@@ -1,0 +1,102 @@
+.navbar-nav > li >a{
+  font-size:18px;
+  color: #ffffff;
+  font-weight: 600;
+}
+.navbar-nav > li:hover >a,
+.navbar-nav > li.active >a
+{
+  color: blueviolet;
+}
+
+#tabela_entrada {
+    width:800px;
+    float:left;
+    position:relative;
+    margin-left:280px;
+    margin-top:30px;
+}
+
+tr:first-child {
+    background: #191970;
+}
+tr:not(:first-child):nth-child(odd) {
+    background: #191970
+}
+tr {
+   padding: 5px;
+   line-height: 5px;
+   min-height: 5px;
+   height: 5px;
+}
+
+/*Acrescentado para submenu*/
+
+   .dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu>.dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -6px;
+    margin-left: -1px;
+    -webkit-border-radius: 0 6px 6px 6px;
+    -moz-border-radius: 0 6px 6px;
+    border-radius: 0 6px 6px 6px;
+}
+
+.dropdown-submenu:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown-submenu>a:after {
+    display: block;
+    content: " ";
+    float: right;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    border-left-color: #ccc;
+    margin-top: 5px;
+    margin-right: -10px;
+}
+
+.dropdown-submenu:hover>a:after {
+    border-left-color: #fff;
+}
+
+.dropdown-submenu.pull-left {
+    float: none;
+}
+
+.dropdown-submenu.pull-left>.dropdown-menu {
+    left: -100%;
+    margin-left: 10px;
+    -webkit-border-radius: 6px 0 6px 6px;
+    -moz-border-radius: 6px 0 6px 6px;
+    border-radius: 6px 0 6px 6px;
+}
+#li_cadastro {
+	background-color:#000;
+	color: #fff;
+	text-align: center;
+	font-size:15px;
+	font-weight:800;
+}
+#li_operacao {
+	background-color:#000;
+	color: #fff;
+	text-align: center;
+	font-size:15px;
+	font-weight:800;
+}
+#li_fatura {
+	background-color:#000;
+	color: #fff;
+	text-align: center;
+	font-size:15px;
+	font-weight:800;
+}
